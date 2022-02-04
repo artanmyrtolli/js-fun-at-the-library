@@ -1,7 +1,7 @@
 
 
 module.exports = {
-  // createLibrary,
+  createLibrary,
   // addBook,
   // checkoutBook
 };
