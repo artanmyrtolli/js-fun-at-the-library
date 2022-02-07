@@ -1,19 +1,24 @@
-// function createLibrary() {
-//   console.log('library')
-// }
-//
+
 
 class Librarian {
   constructor(name, library) {
     this.name = name;
-    this.library =
+    this.library = library;
+    this.greetPatron = function (patron, isMorning) {
+      if (isMorning == true) {
+        //truthy not absolute true will make it work for Scott
+      return `Good morning, ${patron}!`;
+    } else {
+      return `Hello, ${patron}!`;
+    }
+    }
+  }
+    findBook (book) {
+      console.log(checkoutBook (library, book, 'fantasy'));
 
- function createLibrary(library){
-   console.log('howdiedoodee')
-   return library;
-   };
- }
-}
+
+  }
+};
 
 
 

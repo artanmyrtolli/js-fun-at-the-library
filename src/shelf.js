@@ -23,9 +23,9 @@ function listTitles (fantasyShelf) {
 var titles = [];
   for (var i = 0; i < fantasyShelf.length; i++){
         titles.push(fantasyShelf[i].title);
-      }
-          return titles.join(', ');
+      } return titles.join(', ');
 }
+
 
 function searchShelf (sciFiShelf, book) {
  for (var i = 0; i < sciFiShelf.length; i++) {
